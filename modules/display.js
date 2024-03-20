@@ -16,4 +16,16 @@ function displayMovieDetails(movie) {
         <p>Overview: ${movie.overview}</p>
         <p>IMDb Rating: <a href="${imdbUrl}" target="_blank">${imdbRating}</a></p>
     `;
-}  
+    
+    // Updating movie poster in the HTML
+    document.getElementById("moviePoster").innerHTML = `<img src="${imageUrl}" alt="${movie.title} Poster" />`;
+    
+    // Updating movie information in the HTML
+    document.getElementById("movieInfo").innerHTML = movieInfo;
+    
+    // Removing 'hidden' class to display movie details section
+    document.getElementById("movieDetails").classList.remove("hidden");
+    
+    // Adding 'hidden' class to hide 'no results' message
+    document.getElementById("noResultsMessage").classList.add("hidden");
+  }
