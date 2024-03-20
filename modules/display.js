@@ -45,3 +45,12 @@ function displayNoResults() {
     document.getElementById("noResultsMessage").classList.remove("hidden");
   }
   
+  // Function to display error message
+function displayError(message) {
+    // Setting error message in the HTML
+    document.getElementById("error").textContent = message;
+    
+    // Removing 'hidden' class to display error message
+    document.getElementById("error").classList.remove("hidden");
+  }
+  
