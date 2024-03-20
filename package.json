@@ -1,0 +1,15 @@
+{
+  "name": "moviefinder",
+  "version": "1.0.0",
+  "description": "The Movie Finder is a web application designed to provide users with essential information about movies. By utilizing the 'www.themoviedb.org' API, users can search for any movie by its title and instantly retrieve its poster, summary, and IMDb score. The application is built using HTML, Sass, and JavaScript, offering an intuitive and responsive interface for users to explore and discover movies effortlessly. Whether you're a cinephile looking for your next film to watch or simply curious about a particular movie, the Movie Finder simplifies the process by providing all the necessary details in one place. With its sleek design and seamless functionality, the Movie Finder enhances the movie-watching experience for users worldwide. Explore, discover, and enjoy your favorite movies with the Movie Finder today!  This project aims to demonstrate the integration of a third-party API into a web application, showcasing practical use of HTML, Sass, and JavaScript for creating dynamic and engaging user interfaces. Feel free to contribute, suggest improvements, or customize the project to suit your needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
