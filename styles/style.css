@@ -1,1 +1,101 @@
-/*# sourceMappingURL=styles.css.map */
+/* Styling for the body */
+body {
+  background-color: #121212; /* Set background color */
+  color: #ffffff; /* Set text color */
+}
+
+/* Styling for the main container */
+.container {
+  max-width: 800px; /* Set maximum width */
+  margin: 0 auto; /* Center align container */
+  padding: 20px; /* Add padding */
+  background-color: #1f1f1f; /* Set background color */
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  /* Styling for headings and paragraphs */
+}
+.container h1,
+.container h2,
+.container p {
+  margin-top: 0; /* Remove default margin */
+}
+
+/* Styling for the search container */
+.search-container {
+  margin-bottom: 20px; /* Add margin at the bottom */
+  /* Styling for search input */
+  /* Styling for search button */
+}
+.search-container input[type=text] {
+  padding: 10px; /* Add padding */
+  width: 70%; /* Set width */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  background-color: #333333; /* Set background color */
+  color: #ffffff; /* Set text color */
+}
+.search-container button {
+  padding: 10px 20px; /* Add padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  background-color: #007bff; /* Set background color */
+  color: #ffffff; /* Set text color */
+  cursor: pointer; /* Change cursor to pointer */
+  /* Hover effect */
+}
+.search-container button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Styling for hidden elements */
+.hidden {
+  display: none; /* Hide the element */
+}
+
+/* Styling for movie details, no results message, and error message */
+#movieDetails,
+#noResultsMessage,
+#error {
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Add border radius */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Styling for movie details section */
+#movieDetails {
+  background-color: #333333; /* Set background color */
+  /* Styling for movie poster */
+}
+#movieDetails #moviePoster img {
+  max-width: 100%; /* Set maximum width */
+  height: auto; /* Set height to auto */
+}
+
+/* Styling for no results message and error message */
+#noResultsMessage,
+#error {
+  background-color: #ff3b3b; /* Set background color */
+  color: #ffffff; /* Set text color */
+}
+
+/* Styling for pagination section */
+#pagination {
+  text-align: center; /* Center align text */
+}
+
+/* Styling for previous and next buttons */
+#prevButton,
+#nextButton {
+  padding: 10px 20px; /* Add padding */
+  margin: 0 5px; /* Add margin */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  background-color: #007bff; /* Set background color */
+  color: #ffffff; /* Set text color */
+  cursor: pointer; /* Change cursor to pointer */
+  /* Hover effect */
+}
+#prevButton:hover,
+#nextButton:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}/*# sourceMappingURL=style.css.map */
