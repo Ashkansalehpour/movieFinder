@@ -29,3 +29,19 @@ function displayMovieDetails(movie) {
     // Adding 'hidden' class to hide 'no results' message
     document.getElementById("noResultsMessage").classList.add("hidden");
   }
+
+  // Function to display 'no results' message
+function displayNoResults() {
+    // Adding 'hidden' class to hide movie details section
+    document.getElementById("movieDetails").classList.add("hidden");
+    
+    // Clearing movie poster
+    document.getElementById("moviePoster").innerHTML = "";
+    
+    // Clearing movie information
+    document.getElementById("movieInfo").innerHTML = "";
+    
+    // Removing 'hidden' class to display 'no results' message
+    document.getElementById("noResultsMessage").classList.remove("hidden");
+  }
+  
