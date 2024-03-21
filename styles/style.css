@@ -28,6 +28,7 @@ body {
   margin-bottom: 20px; /* Add margin at the bottom */
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Align items with space between */
+  flex-direction: column; /* Set flex direction to column */
   /* Styling for search input */
   /* Styling for search button */
 }
@@ -39,14 +40,18 @@ body {
   background-color: #333333; /* Set background color */
   color: #ffffff; /* Set text color */
   border: 1px solid rgba(133, 133, 133, 0.9215686275); /* Set border */
+  width: 98%;
+  margin-bottom: 20px;
 }
 .search-container button {
-  padding: 10px 20px; /* Add padding */
+  padding: 13px 43px; /* Add padding */
   border: none; /* Remove border */
   border-radius: 4px; /* Add border radius */
   background-color: #007bff; /* Set background color */
   color: #ffffff; /* Set text color */
   cursor: pointer; /* Change cursor to pointer */
+  width: fit-content;
+  margin: 0 auto;
 }
 
 /* Styling for hidden elements */
