@@ -15,7 +15,10 @@ body {
 
   /* Styling for headings and paragraphs */
   h1,
-  h2,
+  h2 {
+    text-align: center;
+  }
+
   p {
     margin-top: 0; /* Remove default margin */
   }

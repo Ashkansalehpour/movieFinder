@@ -15,7 +15,9 @@ body {
   /* Styling for headings and paragraphs */
 }
 .container h1,
-.container h2,
+.container h2 {
+  text-align: center;
+}
 .container p {
   margin-top: 0; /* Remove default margin */
 }
