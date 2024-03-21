@@ -9,16 +9,22 @@ body {
   max-width: 800px; /* Set maximum width */
   margin: 0 auto; /* Center align container */
   padding: 20px; /* Add padding */
-  background-color: rgba(255, 255, 255, 0.1); /* Set background color */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.15
+  ); /* Set semi-transparent background color */
   border-radius: 8px; /* Add border radius */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
 
-  /* Styling for headings and paragraphs */
+  /* Styling for heading */
   h1,
   h2 {
     text-align: center;
   }
 
+  /* Styling for paragraphs */
   p {
     margin-top: 0; /* Remove default margin */
   }
@@ -33,7 +39,7 @@ body {
   /* Styling for search input */
   input[type="text"] {
     padding: 10px; /* Add padding */
-    width: 70%; /* Set width */
+    width: calc(70% - 5px); /* Set width with space for button */
     border: none; /* Remove border */
     border-radius: 4px; /* Add border radius */
     background-color: #333333; /* Set background color */
@@ -48,11 +54,6 @@ body {
     background-color: #007bff; /* Set background color */
     color: #ffffff; /* Set text color */
     cursor: pointer; /* Change cursor to pointer */
-
-    /* Hover effect */
-    &:hover {
-      background-color: #0056b3; /* Change background color on hover */
-    }
   }
 }
 
@@ -61,24 +62,28 @@ body {
   display: none; /* Hide the element */
 }
 
-/* Styling for movie details, no results message, and error message */
-#movieDetails,
-#noResultsMessage,
-#error {
+/* Styling for movie details section */
+#movieDetails {
+  background-color: #333333; /* Set background color */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Set flex direction to column */
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center align items vertically */
   padding: 20px; /* Add padding */
   border-radius: 8px; /* Add border radius */
   margin-bottom: 20px; /* Add margin at the bottom */
 }
 
-/* Styling for movie details section */
-#movieDetails {
-  background-color: #333333; /* Set background color */
+/* Styling for movie poster */
+#moviePoster {
+  margin-bottom: 20px; /* Add margin at the bottom */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center align items horizontally */
+}
 
-  /* Styling for movie poster */
-  #moviePoster img {
-    max-width: 100%; /* Set maximum width */
-    height: auto; /* Set height to auto */
-  }
+#moviePoster img {
+  max-width: 100%; /* Set maximum width */
+  height: auto; /* Set height to auto */
 }
 
 /* Styling for no results message and error message */
