@@ -38,21 +38,3 @@ async function searchAndDisplayMovies() {
 document
   .getElementById("searchButton")
   .addEventListener("click", searchAndDisplayMovies);
-
-// Adding event listener to next button for navigating to next page
-document.getElementById("nextButton").addEventListener("click", function () {
-  if (currentPage < totalPages) {
-    // Incrementing current page and triggering search
-    currentPage++;
-    searchAndDisplayMovies();
-  }
-});
-
-// Adding event listener to previous button for navigating to previous page
-document.getElementById("prevButton").addEventListener("click", function () {
-  if (currentPage > 1) {
-    // Decrementing current page and triggering search
-    currentPage--;
-    searchAndDisplayMovies();
-  }
-});
